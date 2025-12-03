@@ -1,5 +1,5 @@
 <!-- Open Graph image -->
-<meta property="og:image" content="https://github.com/marktaborosi/super-mario-replica-unity/blob/8b0bd420a2eac0a08d8156332760860dd5891e0d/og-image.png" />
+<meta property="og:image" content="https://github.com/marktaborosi/super-mario-replica-unity/blob/8b0bd420a2eac0a08d8156332760860dd5891e0d/og-image.png?raw=true" />
 <meta property="og:image:width" content="1280" />
 <meta property="og:image:height" content="640" />
 
