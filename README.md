@@ -1,3 +1,8 @@
+<!-- Open Graph image -->
+<meta property="og:image" content="https://raw.githubusercontent.com/marktaborosi/super-mario-replica-unity/main/og-image.png" />
+<meta property="og:image:width" content="1280" />
+<meta property="og:image:height" content="640" />
+
 # <img src="images/Mario_Small_Idle.png" width="24" alt="Mario Idle Icon"> Super Mario Bros – Unity Recreation (Educational Project)
 
 A non-commercial, educational Unity project recreating core gameplay elements
