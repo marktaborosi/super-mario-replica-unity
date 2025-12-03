@@ -42,6 +42,16 @@ merely a personal study project.
 
 ---
 
+## 🗂️ Scene Hierarchy Example
+
+The repository also includes a visual example of the **Unity scene hierarchy** used to structure a level.  
+This illustrates how tiles, blocks, enemies, triggers, background elements and player-related objects
+are organized inside a typical 1-1 style scene.
+
+<p align="center">
+  <img src="images/scene-hierarchy.png" alt="Scene Hierarchy Example" width="420">
+</p>
+
 ## 📸 Screenshot
 
 <p align="center">
@@ -134,7 +144,37 @@ as redistribution of paid Asset Store content is prohibited.
 
 ---
 
+## 🖥️ Display & Aspect Ratio Support
+
+The project supports a wide range of display resolutions and aspect ratios.  
+It has been primarily tested on:
+
+- ✔️ **16:9** (Full HD, QHD, 4K UHD)
+- ✔️ **16:10**
+- ✔️ **WXGA / HD+** formats
+- ✔️ **Full HD (1920×1080)**
+- ✔️ **QHD (2560×1440)**
+- ✔️ **4K UHD (3840×2160)**
+
+Unity's **Free Aspect** mode is fully supported as well —  
+the side-scrolling camera and clamped player movement do not depend on a fixed aspect ratio,  
+so gameplay remains stable across standard and high-resolution displays.
+
 ---
+
+## ⚡ Performance & Framerate
+
+The game is configured to run at a **target framerate of 100 FPS**  
+(as set in `GameManager.Start()` via `Application.targetFrameRate = 100`).
+
+This ensures:
+
+- Smooth camera scrolling
+- Responsive player input
+- Stable physics behaviour at modern refresh rates
+
+Unity will internally cap the framerate if the platform or browser cannot reach 100 FPS,
+but the gameplay remains consistent even at lower framerates.
 
 ## 🎮 Gameplay Scope & Limitations
 
@@ -190,6 +230,42 @@ Under the hood, the project is built around a few simple core ideas:
 Overall, the architecture aims to be **clean and educational**:  
 global managers for shared state, events for decoupling, and many small focused components
 for movement, interaction, audio and visual feedback.
+
+---
+
+## 🔮 Future Improvements
+
+This project intentionally focuses on a single, self-contained level (1-1),  
+but it was built with modular systems that allow extending the game further.  
+Possible future additions include:
+
+### 🎮 Gameplay & Content
+- Additional levels (1-2, 1-3, 1-4, and full world progression)
+- Underground, castle and sky themes
+- More enemy types (Hammer Bro, Piranha Plant, Lakitu, etc.)
+- Improved collision system and movement refinements
+
+### 💾 Systems & Persistence
+- Save/load support for:
+  - player progress
+  - high scores
+  - collected coins
+  - continue from last stage
+- Configurable input bindings or settings menu
+
+### 📱 Platform Support
+- Mobile touch controls (virtual joystick + jump/run buttons)
+- Gamepad support (Xbox / PlayStation controllers)
+- WebGL performance tuning for mobile browsers
+
+### 🧩 Tools & Editor
+- Level editor improvements (prefab palettes, snapping, gizmos)
+- More reusable scene templates for level-building
+
+These features are **not implemented in this version**,  
+but the codebase is structured to make such extensions possible in future iterations.
+
+---
 
 ## 🧩 Unity Version
 
