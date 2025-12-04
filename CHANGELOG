@@ -1,0 +1,44 @@
+# Changelog
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/),
+and this project adheres to [Semantic Versioning](https://semver.org/).
+
+---
+
+## [1.0.0] - 2025-02-10
+### 🎉 Initial Release
+This is the first stable release of the **Super Mario Bros – Unity Recreation** project.
+
+#### Added
+- Complete World 1-1 level recreation
+- Player movement (run, jump, skid, gravity tuning)
+- Goomba & Koopa enemy implementations
+- Breakable blocks, power-ups, coins, question block logic
+- Flagpole ending sequence + castle cinematic
+- Custom audio system (SFX + music)
+- UI display for coins, lives, world/stage
+- Scene hierarchy example image
+- WebGL and Windows builds (WebGL requires HTTP server)
+- Full documentation in README
+
+#### Changed
+- Improved README structure and clarity
+- Added correct WebGL instructions
+- Removed unused Open Graph meta tags
+
+#### Technical
+- Added `.gitattributes` to ensure GitHub detects C# as primary language
+- Cleaned repo structure and build directories
+
+---
+
+## [Unreleased]
+### Planned
+- Additional levels (1-2, 1-3, 1-4)
+- Improved collision system
+- More enemy types
+- Save/load system
+- Settings & input remapping
+- Mobile/touch support
+- Level editor improvements
