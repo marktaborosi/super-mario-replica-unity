@@ -283,7 +283,7 @@ Using other Unity versions may produce import warnings or unexpected behaviour.
 ## 🙋 Author
 
 **Mark Taborosi**  
-CubixEDU Unity Game Development — 2025  
+Cubix Institue of Technology - Unity Game Development — 2025  
 Email: <a href="mailto:mark.taborosi@gmail.com">mark.taborosi@gmail.com</a>
 
 ---
