@@ -1,0 +1,4 @@
+*.cs linguist-detectable=true
+*.cs linguist-language=C#
+*.csproj linguist-detectable=false
+*.json linguist-detectable=false

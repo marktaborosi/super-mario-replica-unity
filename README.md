@@ -1,8 +1,3 @@
-<!-- Open Graph image -->
-<meta property="og:image" content="https://github.com/marktaborosi/super-mario-replica-unity/blob/8b0bd420a2eac0a08d8156332760860dd5891e0d/og-image.png?raw=true" />
-<meta property="og:image:width" content="1280" />
-<meta property="og:image:height" content="640" />
-
 # <img src="images/Mario_Small_Idle.png" width="24" alt="Mario Idle Icon"> Super Mario Bros – Unity Recreation (Educational Project)
 
 A non-commercial, educational Unity project recreating core gameplay elements
@@ -144,8 +139,11 @@ as redistribution of paid Asset Store content is prohibited.
 6. Press ▶ **Play** in the editor
 
 ### Running the builds:
-- 🌐 Open `Build/Web/index.html` for the WebGL build
 - 🖥️ Run `Build/Bin/*.exe` for the Windows build
+- 🌐 Run `Build/Web/` on a Web Server
+
+WebGL builds must be served via an HTTP server. Opening the index file directly from the file system will not work.
+For web server you can use python, node.js, php, whatever you prefer...
 
 ---
 
