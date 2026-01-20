@@ -2,7 +2,7 @@
 
 A non-commercial, educational Unity project recreating core gameplay elements
 from **Super Mario Bros. (1985)**.  
-This project was developed as part of the **CubixEDU 2025 Unity Game Development Course**,
+This project was developed as part of the **CubixEDU 2025 Unity Game Development Course** and Unity's Creative Core Pathway,
 with the sole purpose of learning, practicing, and understanding 2D platformer mechanics.
 
 Created by **Táborosi Márk**, 2025.
